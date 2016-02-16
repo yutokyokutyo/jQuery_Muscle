@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+<script>
+$(function() {
+  $('input').click(function() {
+    if ($(this).val() == 2) alert('君こそが筋肉だ(｀･ω･´)ゞ');
+    else alert('君は筋肉ではない');
+  });
+});
+</script>
+
+</head>
+<body>
+  <p>あなたはどのポケモンが好き？</p>
+  <p>
+    <input type="radio" name="pokemon" value="0">ピカチュウ
+    <input type="radio" name="pokemon" value="1">チコリータ
+    <input type="radio" name="pokemon" value="2">カイリキー
+  </p>
+</body>
+</html>
+
