@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>
+$(function() {
+  $('#answer').hover(
+    function() {$('span').hide();},
+    function() {$('span').show();}
+  );
+});
+</script>
+</head>
+<body>
+    <p>きんにく暗号 (<em id="answer">ここにマウスをかさねると解読します</em>)</p>
